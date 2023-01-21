@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 
-import {Card, Loader, FormField} from '../components/index';
+import {Card, Loader, FormField} from '../components';
 
 const RenderCards = ({data, title}) => {
     if(data?.length > 0) {
